@@ -1,0 +1,61 @@
+@font-face {
+    font-family: "Triforce";
+    src: url(../Triforce.ttf) format("truetype");
+}
+header{
+    font-size: 8em;
+    text-align: center;
+    color: red;
+    text-shadow:
+		-2px -2px 0 #000,
+		2px -2px 0 #000,
+		-2px 2px 0 #000,
+		2px 2px 0 #000;
+    font-family: "Triforce";
+}
+body{
+    background-image: url("../images/triforce.jpg");
+}
+#test{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    color: white;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+#qhead{
+    font-family: "Triforce";
+    font-size: 24px;
+}
+#timer{
+    font-size: 1.5em;
+}
+#start{
+    color: white;
+    text-shadow:
+		-2px -2px 0 #000,
+		2px -2px 0 #000,
+		-2px 2px 0 #000,
+		2px 2px 0 #000;
+    font-size: 150px;
+    background: none;
+    border: none;
+    font-family: "Triforce";
+}
+.answer{
+    margin: 12px;
+}
+#start:hover{
+    cursor: pointer;
+}
+.answer:hover{
+    cursor: pointer;
+}
+.results{
+    display: none;
+    font-size: 3em;
+}

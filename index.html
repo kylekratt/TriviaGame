@@ -2,25 +2,30 @@
 <html>
 
 <head>
-    <title>Video Game Trivia</title>
+    <title>Legend of Zelda Trivia</title>
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
-    <header>Video Game Trivia</header>
+    <header>Legend of Zelda Trivia</header>
     <div id="test">
         <div id="qhead">
-            <p id="timer"></p>
             <h1 id="qnum"></h1>
+            <p id="timer"></p>
+            <h2 id="question"></h2>
         </div>
-        <div class="questions">
-            <span id="a"></span>
-            <span id="b"></span>
-            <span id="c"></span>
-            <span id="d"></span>
+        <div class="answers">
+            <p class="answer" id="A"></p>
+            <p class="answer" id="B"></p>
+            <p class="answer" id="C"></p>
+            <p class="answer" id="D"></p>
+        </div>
+        <div class="results">
+            <div>Correct Answers: <span id="correct"></span></div>
+            <div>Incorrect Answers: <span id="incorrect"></span></div>
         </div>
         <button id="start">Start</button>
-
+        
     </div>
     <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
     <script src="assets/javascript/app.js"></script>
