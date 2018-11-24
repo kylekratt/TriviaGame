@@ -48,6 +48,7 @@ var correct = 0;
 var incorrect = 0;
 $("#start").on("click", function () {
     $("#start,.results").css("display", "none");
+    $("#qhead,.answers").css("display","inline");
     qnum=1;
     startQ();
 })
